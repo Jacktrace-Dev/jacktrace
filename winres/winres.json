@@ -1,0 +1,63 @@
+{
+  "RT_GROUP_ICON": {
+    "APP": {
+      "0000": [
+        "icon256.png",
+        "icon48.png",
+        "icon32.png",
+        "icon16.png"
+      ]
+    }
+  },
+  "RT_MANIFEST": {
+    "#1": {
+      "0409": {
+        "identity": {
+          "name": "JackTrace",
+          "version": "0.2.1.0"
+        },
+        "description": "JackTrace: which switch port is this jack?",
+        "minimum-os": "win10",
+        "execution-level": "require administrator",
+        "ui-access": false,
+        "auto-elevate": false,
+        "dpi-awareness": "system",
+        "disable-theming": false,
+        "disable-window-filtering": false,
+        "high-resolution-scrolling-aware": false,
+        "ultra-high-resolution-scrolling-aware": false,
+        "long-path-aware": true,
+        "printer-driver-isolation": false,
+        "gdi-scaling": false,
+        "segment-heap": false,
+        "use-common-controls-v6": false
+      }
+    }
+  },
+  "RT_VERSION": {
+    "#1": {
+      "0000": {
+        "fixed": {
+          "file_version": "0.2.1.0",
+          "product_version": "0.2.1.0"
+        },
+        "info": {
+          "0409": {
+            "Comments": "Listens for CDP and LLDP to find the switch port a network jack is patched to.",
+            "CompanyName": "JackTrace",
+            "FileDescription": "JackTrace",
+            "FileVersion": "0.2.1",
+            "InternalName": "jacktrace",
+            "LegalCopyright": "Copyright (c) 2026 JackTrace contributors. MIT License.",
+            "LegalTrademarks": "",
+            "OriginalFilename": "jacktrace.exe",
+            "PrivateBuild": "",
+            "ProductName": "JackTrace",
+            "ProductVersion": "0.2.1",
+            "SpecialBuild": ""
+          }
+        }
+      }
+    }
+  }
+}

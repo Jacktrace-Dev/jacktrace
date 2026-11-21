@@ -1,0 +1,8 @@
+dist/
+*.exe
+*.etl
+*.pcapng.tmp
+.DS_Store
+
+# Private build diary: stays on the maintainer's machine, never in the public repo
+OPUS_TASKS.md

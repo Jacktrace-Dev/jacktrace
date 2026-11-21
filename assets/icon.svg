@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="256" height="256">
+  <title>JackTrace</title>
+  <!-- rack tile -->
+  <rect width="64" height="64" rx="12" fill="#16181c"/>
+  <!-- jack faceplate -->
+  <rect x="11" y="9" width="42" height="34" rx="4" fill="#22262c" stroke="#3a3f47" stroke-width="1.5"/>
+  <!-- RJ45 opening: wide body, narrower latch notch at the bottom -->
+  <path d="M16 14 H48 V32 H41 V38 H23 V32 H16 Z" fill="#0c0d10"/>
+  <!-- eight contacts -->
+  <g stroke="#f2a93b" stroke-width="1.6" stroke-linecap="round">
+    <line x1="18" y1="16" x2="18" y2="22"/>
+    <line x1="22" y1="16" x2="22" y2="22"/>
+    <line x1="26" y1="16" x2="26" y2="22"/>
+    <line x1="30" y1="16" x2="30" y2="22"/>
+    <line x1="34" y1="16" x2="34" y2="22"/>
+    <line x1="38" y1="16" x2="38" y2="22"/>
+    <line x1="42" y1="16" x2="42" y2="22"/>
+    <line x1="46" y1="16" x2="46" y2="22"/>
+  </g>
+  <!-- the trace: from the jack, down and out to the switch -->
+  <path d="M32 38 V51 H50" fill="none" stroke="#2b7de9" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- link LED -->
+  <circle cx="52" cy="51" r="7.5" fill="#3ccf6e" opacity="0.18"/>
+  <circle cx="52" cy="51" r="4.5" fill="#3ccf6e"/>
+</svg>
